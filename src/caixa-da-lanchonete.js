@@ -1,13 +1,3 @@
-/*
-Busquei criar um código adaptativo, dividindo o menu em "principais","extras" 
-e "combos". Isso permite acomodar mudanças futuras no cardápio. Em vez de 
-depender apenas da categoria "extras", implementei verificações específicas. 
-Por exemplo, para "chantilly", confirmo se o item principal ("café") foi pedido antes. 
-Similarmente, para "queijo", verifico se o item principal ("sanduíche") foi solicitado. 
-Essa abordagem flexível e organizada atende ao desafio atual e prevê possíveis expansões 
-futuras.
-*/ 
-
 class CaixaDaLanchonete {
   constructor() {
     this.menu = {
